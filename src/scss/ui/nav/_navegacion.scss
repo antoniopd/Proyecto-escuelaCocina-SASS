@@ -15,12 +15,12 @@
         font-size: 2.4rem;
         margin-bottom: 2rem;
 
-        &:last-of-type {
-            margin-bottom: 0;
-        }
-
+       
         @include m.tablet { 
-            margin-bottom: 0;
+     
+                margin-bottom: 0;
+            
+    
         }
         &:hover {
             color: v.$primario;
